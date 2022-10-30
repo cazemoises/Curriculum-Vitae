@@ -11,6 +11,7 @@ body {
 
     display: flex;
     justify-content: center;
+    overflow-y: hidden;
 
 }
 
@@ -207,13 +208,12 @@ aside .certifications ul li {
 
 }
 
-.container .experiences, .container .education {
+.container .experiences {
 
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100%;
     max-height: 335px;
-    overflow-y: scroll;
     
 }
 
